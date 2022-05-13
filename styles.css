@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    text-align: center;
+    color: white;
+    background: url('/random-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+input[type=number] {
+    width: 6em;
+}
+#wrapper {
+    width: 100%;
+    z-index: -100;
+}
+
+.dummy {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to top right,rgb(69, 199, 231), rgb(3, 73, 138));
+    z-index: -10;
+    opacity: 0.9;
+    padding: 43px 0;
+}
